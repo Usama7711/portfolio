@@ -62,7 +62,7 @@
 
             .singlePro {
                 display: flex;
-                margin:  15px 0;
+                margin: 15px 0;
                 justify-content: center;
                 position: relative;
                 // width: 100%;
@@ -80,7 +80,8 @@
                     }
                 }
             }
-            .singlePro:hover ~ .ProjectBorderBottom{
+
+            .singlePro:hover~.ProjectBorderBottom {
                 opacity: 1;
                 margin-left: 0px !important;
                 transition: all 0.5s ease;
@@ -96,6 +97,8 @@
                 font-size: 20px;
                 display: flex;
                 width: 100%;
+                display: flex;
+                flex-direction: column;
                 justify-content: center;
                 align-items: center;
                 text-align: center;
@@ -106,8 +109,32 @@
                 left: 0;
                 transition: 1s;
                 opacity: 0;
+
+                .DetailsBtn {
+                    border: 1px solid #20c997;
+                    color: #20c997;
+                    padding: 7px 13px;
+                    border-radius: 20px;
+                    animation: color 2s infinite linear;
+                }
+
                 &:hover {
                     opacity: 1;
+                }
+            }
+
+            @keyframes color {
+                0% {
+                    background: transparent;
+                    color: 20c997;
+                }
+                50% {
+                    background: #20c997;
+                    color: white;
+                }
+                100% {
+                    background: transparent;
+                    color: 20c997;
                 }
             }
 
@@ -136,6 +163,7 @@
                 }
 
             }
+
             .Deeniyat {
                 display: flex;
                 justify-content: center;
@@ -147,6 +175,7 @@
                 }
 
             }
+
             .VehicalTracking {
 
                 display: flex;
@@ -164,7 +193,7 @@
 
                 display: flex;
                 justify-content: center;
-                
+
 
                 img {
                     width: 80%;
@@ -172,11 +201,12 @@
                 }
 
             }
+
             .AminalApp {
-                background: radial-gradient(circle, rgba(255,255,255,1) 15%, rgba(102,124,226,1) 54%);
+                background: radial-gradient(circle, rgba(255, 255, 255, 1) 15%, rgba(102, 124, 226, 1) 54%);
                 display: flex;
                 justify-content: center;
-                    
+
 
                 img {
                     width: 80%;
@@ -206,27 +236,32 @@
                 justify-content: center;
                 // background: white;
                 width: 100%;
+
                 img {
                     width: 80%;
                     height: auto;
                 }
             }
+
             .FleetManagement {
 
                 display: flex;
                 justify-content: center;
                 background: #f6efe9;
                 width: 100%;
+
                 img {
                     width: 80%;
                     height: auto;
                 }
             }
+
             .MyuniversZ {
 
                 display: flex;
                 justify-content: center;
-                background: linear-gradient(0deg, rgba(255,255,255,1) 1%, rgba(1,14,78,1) 100%);
+                background: linear-gradient(0deg, rgba(255, 255, 255, 1) 1%, rgba(1, 14, 78, 1) 100%);
+
                 img {
                     width: 80%;
                     height: auto;
@@ -236,8 +271,9 @@
         }
     }
 }
-.ProjectBorderBottom{
-    border: 2px solid #20c997 ;
+
+.ProjectBorderBottom {
+    border: 2px solid #20c997;
     height: 2px;
     width: 100%;
     opacity: 0;

@@ -154,6 +154,7 @@ const Mywork = () => {
                                                 </div>
                                                 <div className="backGrondProduct">
                                                     <p className="projectTitle">Edsys <br /> ( Eduction System & Solutions )</p>
+                                                    <p className='DetailsBtn'>Details</p>
                                                 </div>
                                             </div>
                                             <div className="ProjectBorderBottom"></div>
@@ -165,6 +166,7 @@ const Mywork = () => {
                                                 </div>
                                                 <div className="backGrondProduct">
                                                     <p className="projectTitle">Wifi Attendance <br /> ( Manage Empolyes Data )</p>
+                                                    <p className='DetailsBtn'>Details</p>
                                                 </div>
                                             </div>
                                             <div className="ProjectBorderBottom"></div>
@@ -176,6 +178,7 @@ const Mywork = () => {
                                                 </div>
                                                 <div className="backGrondProduct">
                                                     <p className="projectTitle">Priston <br /> ( Accounting Web Application )</p>
+                                                    <p className='DetailsBtn'>Details</p>
                                                 </div>
                                             </div>
                                             <div className="ProjectBorderBottom"></div>
@@ -187,6 +190,7 @@ const Mywork = () => {
                                                 </div>
                                                 <div className="backGrondProduct">
                                                     <p className="projectTitle">cloudxperte <br /> ( Live Tracking & Services )</p>
+                                                    <p className='DetailsBtn'>Details</p>
                                                 </div>
                                             </div>
                                             <div className="ProjectBorderBottom"></div>
@@ -198,6 +202,7 @@ const Mywork = () => {
                                                 </div>
                                                 <div className="backGrondProduct">
                                                     <p className="projectTitle">Office Caller <br /> ( Live Tracking & Services )</p>
+                                                    <p className='DetailsBtn'>Details</p>
                                                 </div>
                                             </div>
                                             <div className="ProjectBorderBottom"></div>
@@ -209,6 +214,7 @@ const Mywork = () => {
                                                 </div>
                                                 <div className="backGrondProduct">
                                                     <p className="projectTitle">Vehicle Tracking <br /> ( Vehicle Management System )</p>
+                                                    <p className='DetailsBtn'>Details</p>
                                                 </div>
                                             </div>
                                             <div className="ProjectBorderBottom"></div>
@@ -220,6 +226,7 @@ const Mywork = () => {
                                                 </div>
                                                 <div className="backGrondProduct">
                                                     <p className="projectTitle">Fleet Management<br /> ( Goods Carrier )</p>
+                                                    <p className='DetailsBtn'>Details</p>
                                                 </div>
                                             </div>
                                             <div className="ProjectBorderBottom"></div>
@@ -231,6 +238,7 @@ const Mywork = () => {
                                                 </div>
                                                 <div className="backGrondProduct">
                                                     <p className="projectTitle">Animal App <br /> ( Animal's healts & Services )</p>
+                                                    <p className='DetailsBtn'>Details</p>
                                                 </div>
                                             </div>
                                             <div className="ProjectBorderBottom"></div>
@@ -242,6 +250,7 @@ const Mywork = () => {
                                                 </div>
                                                 <div className="backGrondProduct">
                                                     <p className="projectTitle">My Universe<br /> ( For Commercial purpose )</p>
+                                                    <p className='DetailsBtn'>Details</p>
                                                 </div>
                                             </div>
                                             <div className="ProjectBorderBottom"></div>
@@ -259,6 +268,7 @@ const Mywork = () => {
                                                 </div>
                                                 <div className="backGrondProduct">
                                                     <p className="projectTitle">Priston <br /> ( Accounting Web Application )</p>
+                                                    <p className='DetailsBtn'>Details</p>
                                                 </div>
                                             </div>
                                             <div className="ProjectBorderBottom"></div>
@@ -270,6 +280,7 @@ const Mywork = () => {
                                                 </div>
                                                 <div className="backGrondProduct">
                                                     <p className="projectTitle">Priston <br /> ( Accounting Web Application )</p>
+                                                    <p className='DetailsBtn'>Details</p>
                                                 </div>
                                             </div>
                                             <div className="ProjectBorderBottom"></div>
@@ -281,6 +292,7 @@ const Mywork = () => {
                                                 </div>
                                                 <div className="backGrondProduct">
                                                     <p className="projectTitle">Wifi Attendance <br /> ( Manage Empolyes Data )</p>
+                                                    <p className='DetailsBtn'>Details</p>
                                                 </div>
                                             </div>
                                             <div className="ProjectBorderBottom"></div>
@@ -293,6 +305,7 @@ const Mywork = () => {
                                                 </div>
                                                 <div className="backGrondProduct">
                                                     <p className="projectTitle">Edsys <br /> ( Eduction System & Solutions )</p>
+                                                    <p className='DetailsBtn'>Details</p>
                                                 </div>
                                             </div>
                                             <div className="ProjectBorderBottom"></div>
@@ -304,6 +317,7 @@ const Mywork = () => {
                                                 </div>
                                                 <div className="backGrondProduct">
                                                     <p className="projectTitle">Vehicle Tracking <br /> ( Vehicle Management System )</p>
+                                                    <p className='DetailsBtn'>Details</p>
                                                 </div>
                                             </div>
                                             <div className="ProjectBorderBottom"></div>
@@ -315,6 +329,7 @@ const Mywork = () => {
                                                 </div>
                                                 <div className="backGrondProduct">
                                                     <p className="projectTitle">Animal App <br /> ( Animal's healts & Services )</p>
+                                                    <p className='DetailsBtn'>Details</p>
                                                 </div>
                                             </div>
                                             <div className="ProjectBorderBottom"></div>
@@ -326,6 +341,7 @@ const Mywork = () => {
                                                 </div>
                                                 <div className="backGrondProduct">
                                                     <p className="projectTitle">My Universe<br /> ( For Commercial purpose )</p>
+                                                    <p className='DetailsBtn'>Details</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -342,6 +358,7 @@ const Mywork = () => {
                                                 </div>
                                                 <div className="backGrondProduct">
                                                     <p className="projectTitle">App Cost Calculator<br /> ( App Cost Estimation )</p>
+                                                    <p className='DetailsBtn'>Details</p>
                                                 </div>
                                             </div>
                                             <div className="ProjectBorderBottom"></div>
@@ -353,6 +370,7 @@ const Mywork = () => {
                                                 </div>
                                                 <div className="backGrondProduct">
                                                     <p className="projectTitle">Test Revel<br /> ( Goods Carrier )</p>
+                                                    <p className='DetailsBtn'>Details</p>
                                                 </div>
                                             </div>
                                             <div className="ProjectBorderBottom"></div>
@@ -364,6 +382,7 @@ const Mywork = () => {
                                                 </div>
                                                 <div className="backGrondProduct">
                                                     <p className="projectTitle">Fleet Management<br /> ( Goods Carrier )</p>
+                                                    <p className='DetailsBtn'>Details</p>
                                                 </div>
                                             </div>
                                             <div className="ProjectBorderBottom"></div>
@@ -375,6 +394,7 @@ const Mywork = () => {
                                                 </div>
                                                 <div className="backGrondProduct">
                                                     <p className="projectTitle">Office Caller <br /> ( Live Tracking & Services )</p>
+                                                    <p className='DetailsBtn'>Details</p>
                                                 </div>
                                             </div>
                                             <div className="ProjectBorderBottom"></div>
@@ -386,6 +406,7 @@ const Mywork = () => {
                                                 </div>
                                                 <div className="backGrondProduct">
                                                     <p className="projectTitle">cloudxperte <br /> ( Live Tracking & Services )</p>
+                                                    <p className='DetailsBtn'>Details</p>
                                                 </div>
                                             </div>
                                             <div className="ProjectBorderBottom"></div>

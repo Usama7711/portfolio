@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import bgimg from "../assets/images/backGround.jpeg";
+import Smimg from "../assets/images/responsive_Bg_Img.jpeg";
 import About from './About';
 import Services from './Services';
 import Summary from './Summary';
@@ -42,7 +43,8 @@ const DashBoard = () => {
   return (
     <div id='cx-main'>
       <div className="dashboard_wrapper" id='dashBoardMe'>
-        <img src={bgimg} alt="" />
+        <img src={bgimg} alt="" className='BGImg' />
+        <img src={Smimg} alt="" className='SMImg' />
         <div className="bdopacity"></div>
         <div className="contain">
           <p className="Welcome">Welcome</p>
