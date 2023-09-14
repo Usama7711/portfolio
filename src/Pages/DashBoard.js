@@ -10,35 +10,45 @@ import Contact from './Contact';
 
 
 const DashBoard = () => {
-  const [currentLineIndex, setCurrentLineIndex] = useState(0);
-  const [currentWordIndex, setCurrentWordIndex] = useState(0);
-  const [currentLine, setCurrentLine] = useState('');
   const selfData = [
     "I'm a Frontend Developer",
     "I have Encompass Wide range of React js",
     "Provide In-Depth Information For UX",
-    "I create Device Friendly wepsite",
+    "I create Device Friendly website",
     "Providing Best User Interface ( UI )"
-  ]
-
-
-  // Render User Line
+  ];
+  
+  const [currentLineIndex, setCurrentLineIndex] = useState(0);
+  const [currentLetterIndex, setCurrentLetterIndex] = useState(0);
+  const [currentText, setCurrentText] = useState('');
+  
   useEffect(() => {
     const interval = setInterval(() => {
-      if (currentWordIndex < selfData[currentLineIndex].split(' ').length) {
-        setCurrentLine(prevLine =>
-          prevLine + ' ' + selfData[currentLineIndex].split(' ')[currentWordIndex]
-        );
-        setCurrentWordIndex(prevIndex => prevIndex + 1);
-      } else {
-        setCurrentWordIndex(0);
-        setCurrentLine('');
-        setCurrentLineIndex(prevIndex => (prevIndex + 1) % selfData.length);
+      if (currentLineIndex < selfData.length) {
+        const line = selfData[currentLineIndex];
+        if (currentLetterIndex < line.length) {
+          setCurrentText(prevText => prevText + line[currentLetterIndex]);
+          setCurrentLetterIndex(currentLetterIndex + 1);
+        } else {
+          clearInterval(interval); // Stop the interval temporarily
+  
+          setTimeout(() => {
+            setCurrentLetterIndex(0);
+            setCurrentLineIndex(currentLineIndex + 1);
+            setCurrentText('');
+          }, 1000); // Wait for 3 seconds before displaying the next line
+  
+          // If all lines have been displayed, reset to the first line
+          if (currentLineIndex === selfData.length - 1) {
+            setCurrentLineIndex(0);
+          }
+        }
       }
-    }, 300);
-
+    }, 100); // Adjust the interval as needed
+  
     return () => clearInterval(interval);
-  }, [currentLineIndex, currentWordIndex, selfData]);
+  }, [currentLineIndex, currentLetterIndex]);
+  
 
   return (
     <div id='cx-main'>
@@ -48,7 +58,7 @@ const DashBoard = () => {
         <div className="bdopacity"></div>
         <div className="contain">
           <p className="Welcome">Welcome</p>
-          <p className="Details">{currentLine}</p>
+          <p className="Details">{currentText}</p>
           <p className="location">Based in Nanded , Maharashtra</p>
         </div>
       </div>

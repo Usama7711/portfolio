@@ -6,7 +6,7 @@ import menu from "../assets/images/Menu.svg"
 const Header = () => {
   // Active csss
   const [scrolled, setScrolled] = useState(false);
-  const [home, setHome] = useState(false);
+  const [home, setHome] = useState(true);
   const [about, setAbout] = useState(false);
   const [service, setService] = useState(false);
   const [resume, setResume] = useState(false);

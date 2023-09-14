@@ -152,7 +152,7 @@ const Mywork = () => {
                                                 <div className="edsys">
                                                     <img src={edsys} alt="" />
                                                 </div>
-                                                <div className="backGrondProduct">
+                                                <div className="backGrondProduct aniationonHover">
                                                     <p className="projectTitle">Edsys <br /> ( Eduction System & Solutions )</p>
                                                     <p className='DetailsBtn'>Details</p>
                                                 </div>
@@ -189,7 +189,7 @@ const Mywork = () => {
                                                     <img src={VehicleLogo} alt="" />
                                                 </div>
                                                 <div className="backGrondProduct">
-                                                    <p className="projectTitle">cloudxperte <br /> ( Live Tracking & Services )</p>
+                                                    <p className="projectTitle">cloudxperte <br /> ( Cloud solution provider )</p>
                                                     <p className='DetailsBtn'>Details</p>
                                                 </div>
                                             </div>
@@ -201,7 +201,7 @@ const Mywork = () => {
                                                     <img src={officeLogo} alt="" />
                                                 </div>
                                                 <div className="backGrondProduct">
-                                                    <p className="projectTitle">Office Caller <br /> ( Live Tracking & Services )</p>
+                                                    <p className="projectTitle">Office Caller <br /> ( Manage business calls )</p>
                                                     <p className='DetailsBtn'>Details</p>
                                                 </div>
                                             </div>
@@ -266,8 +266,8 @@ const Mywork = () => {
                                                 <div className="Deeniyat w-100">
                                                     <img src={DeeniyatLogo} alt="" />
                                                 </div>
-                                                <div className="backGrondProduct">
-                                                    <p className="projectTitle">Priston <br /> ( Accounting Web Application )</p>
+                                                <div className="backGrondProduct aniationonHover">
+                                                    <p className="projectTitle">Deeniyat Plus <br /> (  Run organized maktabs )</p>
                                                     <p className='DetailsBtn'>Details</p>
                                                 </div>
                                             </div>
@@ -356,7 +356,7 @@ const Mywork = () => {
                                                 <div className="office">
                                                     <img src={AppCost} alt="" />
                                                 </div>
-                                                <div className="backGrondProduct">
+                                                <div className="backGrondProduct aniationonHover">
                                                     <p className="projectTitle">App Cost Calculator<br /> ( App Cost Estimation )</p>
                                                     <p className='DetailsBtn'>Details</p>
                                                 </div>
@@ -369,7 +369,7 @@ const Mywork = () => {
                                                     <img src={TestRevellogo} alt="" />
                                                 </div>
                                                 <div className="backGrondProduct">
-                                                    <p className="projectTitle">Test Revel<br /> ( Goods Carrier )</p>
+                                                    <p className="projectTitle">Test Revel<br /> ( Incorporate QA (Quality Assurance) )</p>
                                                     <p className='DetailsBtn'>Details</p>
                                                 </div>
                                             </div>
@@ -393,7 +393,7 @@ const Mywork = () => {
                                                     <img src={officeLogo} alt="" />
                                                 </div>
                                                 <div className="backGrondProduct">
-                                                    <p className="projectTitle">Office Caller <br /> ( Live Tracking & Services )</p>
+                                                    <p className="projectTitle">Office Caller <br /> ( Manage business calls )</p>
                                                     <p className='DetailsBtn'>Details</p>
                                                 </div>
                                             </div>
@@ -405,7 +405,7 @@ const Mywork = () => {
                                                     <img src={VehicleLogo} alt="" />
                                                 </div>
                                                 <div className="backGrondProduct">
-                                                    <p className="projectTitle">cloudxperte <br /> ( Live Tracking & Services )</p>
+                                                    <p className="projectTitle">cloudxperte <br /> ( Cloud solution provider )</p>
                                                     <p className='DetailsBtn'>Details</p>
                                                 </div>
                                             </div>
@@ -463,7 +463,7 @@ const Mywork = () => {
             <Modal show={pristonModal} size='xl' centered onHide={handleClosePriston} className='Common-Modal'>
                 <Modal.Body close>
                     <div className="modal_head">
-                    <img src={Cancel} alt="" onClick={handleClosePriston} className='CancelArrow' />
+                        <img src={Cancel} alt="" onClick={handleClosePriston} className='CancelArrow' />
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="heading">Priston-Front-Office</div>
@@ -504,7 +504,7 @@ const Mywork = () => {
             <Modal show={cloudModal} onHide={handleCloseCloud} size='xl' centered className='Common-Modal'>
                 <Modal.Body>
                     <div className="modal_head">
-                    <img src={Cancel} alt="" onClick={handleCloseCloud} className='CancelArrow' />
+                        <img src={Cancel} alt="" onClick={handleCloseCloud} className='CancelArrow' />
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="heading">CloudXperte</div>
@@ -545,7 +545,7 @@ const Mywork = () => {
             <Modal show={wifiAttendance} onHide={handleCloseWifi} size='xl' centered className='Common-Modal'>
                 <Modal.Body>
                     <div className="modal_head">
-                    <img src={Cancel} alt="" onClick={handleCloseWifi} className='CancelArrow' />
+                        <img src={Cancel} alt="" onClick={handleCloseWifi} className='CancelArrow' />
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="heading">Wifi Attendance</div>
@@ -589,7 +589,7 @@ const Mywork = () => {
             <Modal show={officeCaller} onHide={handleCloseOffice} size='xl' centered className='Common-Modal'>
                 <Modal.Body>
                     <div className="modal_head">
-                    <img src={Cancel} alt="" onClick={handleCloseOffice} className='CancelArrow' />
+                        <img src={Cancel} alt="" onClick={handleCloseOffice} className='CancelArrow' />
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="heading">Office Caller</div>
@@ -632,7 +632,7 @@ const Mywork = () => {
             <Modal show={vehicalTracking} onHide={handleCloseVehicalTracking} size='xl' centered className='Common-Modal'>
                 <Modal.Body>
                     <div className="modal_head">
-                    <img src={Cancel} alt="" onClick={handleCloseVehicalTracking} className='CancelArrow' />
+                        <img src={Cancel} alt="" onClick={handleCloseVehicalTracking} className='CancelArrow' />
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="heading">Vehicle Tracking</div>
@@ -678,7 +678,7 @@ const Mywork = () => {
             <Modal show={animalAdmin} onHide={handleCloseAnimalAdmin} size='xl' centered className='Common-Modal'>
                 <Modal.Body>
                     <div className="modal_head">
-                    <img src={Cancel} alt="" onClick={handleCloseAnimalAdmin} className='CancelArrow' />
+                        <img src={Cancel} alt="" onClick={handleCloseAnimalAdmin} className='CancelArrow' />
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="heading">Animal App - Admin</div>
@@ -721,7 +721,7 @@ const Mywork = () => {
             <Modal show={myUnivers} onHide={handleCloseMyUnivers} size='xl' centered className='Common-Modal'>
                 <Modal.Body>
                     <div className="modal_head">
-                    <img src={Cancel} alt="" onClick={handleCloseMyUnivers} className='CancelArrow' />
+                        <img src={Cancel} alt="" onClick={handleCloseMyUnivers} className='CancelArrow' />
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="heading">My Universe</div>
@@ -764,7 +764,7 @@ const Mywork = () => {
             <Modal show={fleetManagement} onHide={handleCloseFleetManagement} size='xl' centered className='Common-Modal'>
                 <Modal.Body>
                     <div className="modal_head">
-                    <img src={Cancel} alt="" onClick={handleCloseFleetManagement} className='CancelArrow' />
+                        <img src={Cancel} alt="" onClick={handleCloseFleetManagement} className='CancelArrow' />
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="heading">Fleet Management</div>
@@ -807,7 +807,7 @@ const Mywork = () => {
             <Modal show={deeniyatPlus} onHide={handleCloseDeeniyat} size='xl' centered className='Common-Modal'>
                 <Modal.Body>
                     <div className="modal_head">
-                    <img src={Cancel} alt="" onClick={handleCloseDeeniyat} className='CancelArrow' />
+                        <img src={Cancel} alt="" onClick={handleCloseDeeniyat} className='CancelArrow' />
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="heading">Deeniyat Plus</div>
@@ -850,7 +850,7 @@ const Mywork = () => {
             <Modal show={appCostCalclu} onHide={handleCloseAppCost} size='xl' centered className='Common-Modal'>
                 <Modal.Body>
                     <div className="modal_head">
-                    <img src={Cancel} alt="" onClick={handleCloseAppCost} className='CancelArrow' />
+                        <img src={Cancel} alt="" onClick={handleCloseAppCost} className='CancelArrow' />
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="heading">App Cost Calculator</div>
@@ -894,7 +894,7 @@ const Mywork = () => {
             <Modal show={testRevel} onHide={handleCloseTestRevel} size='xl' centered className='Common-Modal'>
                 <Modal.Body>
                     <div className="modal_head">
-                    <img src={Cancel} alt="" onClick={handleCloseTestRevel} className='CancelArrow' />
+                        <img src={Cancel} alt="" onClick={handleCloseTestRevel} className='CancelArrow' />
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="heading">Test Revel</div>

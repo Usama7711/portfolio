@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import phone from "../assets/images/Phone.svg"
 import Gmail from "../assets/images/Gmail.svg"
+import linkin from "../assets/images/linkedfd.svg"
 import Whatsapp from "../assets/images/WhatsApp.svg"
-import { Form } from 'react-bootstrap'
+import { Form, Tooltip } from 'react-bootstrap'
 
 const Contact = () => {
     const [validated, setValidated] = useState(false);
@@ -40,15 +41,20 @@ const Contact = () => {
                                 </p>
                                 <div className="ConnectionList">
                                     <img src={phone} alt="" />
-                                    <p>+91 7875773079</p>
+                                    <a href="tel:+917875773079">+91 7875773079</a>
                                 </div>
                                 <div className="ConnectionList">
                                     <img src={Whatsapp} alt="" />
-                                    <p>+91 9607151525</p>
+                                    <a href="https://wa.me/919607151525">+91 9607151525</a>
                                 </div>
                                 <div className="ConnectionList">
                                     <img src={Gmail} alt="" />
-                                    <p>usamamusab16@gmail.com</p>
+                                    <a href="mailto:usamamusab16@gmail.com">usamamusab16@gmail.com</a>
+                                </div>
+                                <div className="ConnectionList">
+                                    <img src={linkin} alt="" />
+                                    <a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/usama-musab-326766231?trk=profile-badge">Usama Musab
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -113,7 +119,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 
