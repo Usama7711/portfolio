@@ -1,0 +1,138 @@
+#cx-main {
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC');
+    // border: 1px solid red;
+    // padding: 0 30px;
+    position: relative;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 70px;
+    background-color: transparent;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: transparent;
+    border-radius: 70px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #20c99695;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #20c997;
+}
+
+body {
+    scroll-behavior: smooth !important;
+    background-color: rgb(248, 249, 250);
+}
+
+.ReponsiveHeaderTop {
+    display: none;
+}
+
+.cx-btn-1 {
+    background-color: #20c997;
+    color: white;
+    border: none;
+    border-radius: 50rem;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+    padding: 0.8rem 2.6rem;
+    font-weight: 500;
+    transition: all 0.5s ease;
+
+    &:hover {
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+        background-color: #1baa80;
+    }
+}
+
+.Common-Modal {
+    background-color: rgba(0, 0, 0, 0.385);
+
+    .modal-content {}
+
+    .modal-body {
+        border-radius: 20px;
+        background: linear-gradient(180deg, #edf3d6, #eed3e9);
+        padding: 20px;
+    }
+
+    .modal_head {
+        position: relative;
+
+        .CancelArrow {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            height: 20px;
+            width: 20px;
+            cursor: pointer;
+            display: none;
+
+        }
+
+        .heading {
+            font-size: 22px;
+            font-weight: 700;
+            color: black;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .privewCarosal {
+            padding-bottom: 30px;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .carousel-indicators {
+            bottom: -50px;
+
+            // width: 100%;
+            button {
+                background-color: #20c997;
+            }
+        }
+
+        .carousel-control-prev {
+            display: none;
+        }
+
+        .carousel-control-next {
+            display: none;
+        }
+    }
+
+    .projecInformations {
+        .head {
+            font-size: 18px;
+            font-weight: 700;
+            color: #252b33;
+            margin-bottom: 5px;
+        }
+
+        .contain {
+            font-size: 16px;
+            font-weight: 300;
+
+            span {
+                font-weight: 500;
+
+                a {
+                    color: #20c997;
+                }
+            }
+        }
+    }
+}

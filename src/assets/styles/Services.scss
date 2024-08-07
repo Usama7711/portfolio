@@ -1,0 +1,78 @@
+.Services_Main {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(248, 249, 250);
+    margin-top: 50px;
+
+    .headerAbout {
+        position: relative;
+        text-align: center;
+        height: 140px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .backGroundHeading {
+            font-size: calc(1.95rem + 8.4vw);
+            line-height: 1.4;
+            font-weight: 600;
+            color: #dee3e4 !important;
+            opacity: 0.6;
+            position: absolute;
+            width: 100%;
+        }
+
+        .mainHeading {
+            font-weight: 600;
+            font-size: 2.25rem;
+            line-height: 1.5;
+            z-index: 1;
+        }
+
+        .BottomBorderAbout {
+            display: flex;
+            border: 2px solid #20c997;
+            width: 80px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .servusesContain {
+        .singleCardSecrvice {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 10px;
+
+            .logoService {
+                height: 60px;
+                width: 60px;    
+                margin-right: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                border-radius: 10px;
+
+                img {
+                    height: 30px;
+                    width: 30px;
+                }
+            }
+
+            .containServiceInner {
+                font-size: 14px;
+                width: 80%;
+                line-height: 1.8;
+                color: #7e7e7e;
+                .headingServiceInner {
+                    font-size: 20px;
+                    font-weight: 600;
+                    color: #252b33;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}

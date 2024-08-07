@@ -1,0 +1,305 @@
+.MyworkMian {
+    .headerMywork {
+        position: relative;
+        text-align: center;
+        height: 140px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .backGroundHeading {
+            font-size: calc(1.95rem + 8.4vw);
+            line-height: 1.4;
+            font-weight: 600;
+            color: #dee3e4 !important;
+            opacity: 0.6;
+            position: absolute;
+            width: 100%;
+        }
+
+        .mainHeading {
+            font-weight: 600;
+            font-size: 2.25rem;
+            line-height: 1.5;
+            z-index: 1;
+        }
+
+        .BottomBorderAbout {
+            display: flex;
+            border: 2px solid #20c997;
+            width: 80px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .WorkBody {
+        .nav {
+            display: flex;
+            flex-direction: row !important;
+            justify-content: center;
+
+            .nav-link {
+                border-bottom: 1px solid grey;
+                border-radius: 0;
+                margin: 0 10px;
+                color: grey;
+            }
+
+            .nav-link.active {
+                background-color: transparent;
+                color: #20c997;
+                font-weight: 600;
+                border-bottom: 2px solid #20c997;
+            }
+        }
+
+        .AllProject {
+            display: flex;
+            flex-flow: wrap;
+
+            .singlePro {
+                display: flex;
+                margin: 15px 0;
+                justify-content: center;
+                position: relative;
+                // width: 100%;
+                height: 190px;
+                cursor: pointer;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+                &:hover {
+
+                    .edsys,
+                    .Priston,
+                    .Vehicle,
+                    .Wifi {
+                        filter: blur(3px);
+                    }
+                }
+            }
+
+            .singlePro:hover~.ProjectBorderBottom {
+                opacity: 1;
+                margin-left: 0px !important;
+                transition: all 0.5s ease;
+            }
+
+            .aniationonHover{
+                // opacity: 1 !important;
+                // margin-left: 0px !important;
+                transition: all 0.5s ease;
+                animation: OpactityProduct 3s infinite linear;
+
+            }
+            @keyframes OpactityProduct {
+                0% {
+                   opacity: 1;
+                   margin-left: 0;
+                }
+                25% {
+                    opacity: 0.7;
+                    margin-left: 0;
+                }
+                50% {
+                    opacity: 0.5;
+                }
+                75% {
+                    opacity: 0.7;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+
+            .backGrondProduct {
+                background-color: rgba(0, 0, 0, 0.682);
+                color: white;
+                font-size: 20px;
+                display: flex;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: o;
+                left: 0;
+                transition: 1s;
+                opacity: 0;
+
+                .DetailsBtn {
+                    border: 1px solid #20c997;
+                    color: #20c997;
+                    padding: 7px 13px;
+                    border-radius: 20px;
+                    animation: color 2s infinite linear;
+                }
+
+                &:hover {
+                    opacity: 1;
+                }
+            }
+
+            @keyframes color {
+                0% {
+                    background: transparent;
+                    color: 20c997;
+                }
+                50% {
+                    background: #20c997;
+                    color: white;
+                }
+                100% {
+                    background: transparent;
+                    color: 20c997;
+                }
+            }
+         
+
+            .edsys {
+
+                display: flex;
+                justify-content: center;
+                background: linear-gradient(180deg, #edf3d6, #eed3e9);
+
+                img {
+                    width: 80%;
+                    height: 100%;
+                }
+
+            }
+
+            .Priston {
+
+                display: flex;
+                justify-content: center;
+                background: #beddda;
+
+                img {
+                    width: 80%;
+                    height: auto;
+                }
+
+            }
+
+            .Deeniyat {
+                display: flex;
+                justify-content: center;
+                background: #aafcb5;
+
+                img {
+                    width: 80%;
+                    height: auto;
+                }
+
+            }
+
+            .VehicalTracking {
+
+                display: flex;
+                justify-content: center;
+                background: #f6efe9;
+
+                img {
+                    width: 80%;
+                    height: auto;
+                }
+
+            }
+
+            .Vehicle {
+
+                display: flex;
+                justify-content: center;
+
+
+                img {
+                    width: 80%;
+                    height: auto;
+                }
+
+            }
+
+            .AminalApp {
+                background: radial-gradient(circle, rgba(255, 255, 255, 1) 15%, rgba(102, 124, 226, 1) 54%);
+                display: flex;
+                justify-content: center;
+
+
+                img {
+                    width: 80%;
+                    height: auto;
+                }
+
+            }
+
+            .Wifi {
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: white;
+                margin: auto;
+
+                img {
+                    width: 200px;
+                    height: 60px;
+                }
+
+            }
+
+            .office {
+
+                display: flex;
+                justify-content: center;
+                // background: white;
+                width: 100%;
+
+                img {
+                    width: 80%;
+                    height: auto;
+                }
+            }
+
+            .FleetManagement {
+
+                display: flex;
+                justify-content: center;
+                background: #f6efe9;
+                width: 100%;
+
+                img {
+                    width: 80%;
+                    height: auto;
+                }
+            }
+
+            .MyuniversZ {
+
+                display: flex;
+                justify-content: center;
+                background: linear-gradient(0deg, rgba(255, 255, 255, 1) 1%, rgba(1, 14, 78, 1) 100%);
+
+                img {
+                    width: 80%;
+                    height: auto;
+                }
+            }
+
+        }
+    }
+}
+
+.ProjectBorderBottom {
+    border: 2px solid #20c997;
+    height: 2px;
+    width: 100%;
+    opacity: 0;
+    margin-left: -250px;
+}

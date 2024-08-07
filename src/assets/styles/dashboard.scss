@@ -1,0 +1,80 @@
+.topScroller {
+    background-color: #20c997;
+    height: 45px;
+    width: 45px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: fixed;
+    z-index: 110;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    &:hover {
+        opacity: 1;
+    }
+
+    img {
+        height: 22px;
+        width: 22px;
+    }
+}
+
+
+
+.dashboard_wrapper {
+    height: 100vh;
+    position: relative;
+
+    img {
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        object-fit: cover;
+    }
+
+    .bdopacity {
+        position: absolute;
+        top: 0;
+        right: 0;
+        opacity: 0.8;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+    }
+
+    .contain {
+        position: absolute;
+        top: 0;
+        z-index: 1;
+        // border: 1px solid red;
+        height: 97vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+        .Welcome {
+            font-size: 1.75rem !important;
+            font-weight: 500;
+            margin-bottom: 1rem;
+        }
+
+        .Details {
+            height: 90px;
+            font-size: 3.5rem;
+            font-weight: 600;
+            color: rgba(250, 250, 250, 0.9);
+            margin-bottom: 1rem;
+        }
+
+        .location {
+            font-size: 1.31rem;
+            color: #dee3e4 !important;
+        }
+    }
+}
