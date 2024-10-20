@@ -23,10 +23,10 @@ const Summary = () => {
                         <p className="ExpHeading">My Experience</p>
                         <div className="col-lg-6">
                             <div className="ExpSingle">
-                                <p className="duration"> May 2022 - Present</p>
+                                <p className="duration"> May 2022 - Oct 2024</p>
                                 <p className="position">Front End Developer</p>
                                 <p className="companyName">Redbytes Software Pvt. Ltd.</p>
-                                <p className="dicription">Front-end dev at Redbytes, 1.5 yrs. Proficient in React and Next.js. Designed interactive web experiences with HTML, CSS, JS. Enhanced UI/UX, responsive layouts, and optimized user engagement.Working with SSR and CSR</p>
+                                <p className="dicription">Front-end dev at Redbytes, 2.6 yrs. Proficient in React and Next.js. Designed interactive web experiences with HTML, CSS, JS. Enhanced UI/UX, responsive layouts, and optimized user engagement.Working with SSR and CSR</p>
                             </div>
                         </div>
                         <div className="col-lg-6">
@@ -34,7 +34,7 @@ const Summary = () => {
                                 <p className="duration">Feb 2021 - Apr 2022</p>
                                 <p className="position">React Js developer</p>
                                 <p className="companyName">Tekisky Pvt. Ltd.</p>
-                                <p className="dicription">At Tekisky, 1.2 years as a front-end developer. Expertise in React.js, creating dynamic web interfaces. Proficient in HTML, CSS, JS. Committed to user-centered design, responsive layouts, and elevating digital interactions.</p>
+                                <p className="dicription">At Tekisky, 1.3 years as a front-end developer. Expertise in React.js, creating dynamic web interfaces. Proficient in HTML, CSS, JS. Committed to user-centered design, responsive layouts, and elevating digital interactions.</p>
                             </div>
                         </div>
                     </div>

@@ -1,6 +1,9 @@
 .AboutUs_Main {
     font-family: "Poppins", sans-serif;
-
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     .headerAbout {
         position: relative;
         text-align: center;

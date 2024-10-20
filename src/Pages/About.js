@@ -87,7 +87,7 @@ const About = () => {
                     </div>
                     <div className="WorkRatio mt-4">
                         <div className="singleRatio">
-                            <div className="countNumber">2.5 +</div>
+                            <div className="countNumber">3.5 +</div>
                             <div className="ratiotitle">Years Experiance</div>
                         </div>
                         <div className="singleRatio">

@@ -37,19 +37,19 @@ const Header = () => {
       setService(false);
     }
 
-    if (scrollY >= windowHeight * 3 && scrollY <= windowHeight * 5.3) {
+    if (scrollY >= windowHeight * 3 && scrollY <= windowHeight * 4) {
       setResume(true);
     } else {
       setResume(false);
     }
 
-    if (scrollY >= windowHeight * 5.3 && scrollY <= windowHeight * 6.8) {
+    if (scrollY >= windowHeight * 4 && scrollY <= windowHeight * 4.5) {
       setPortfolio(true);
     } else {
       setPortfolio(false);
     }
 
-    if (scrollY >= windowHeight * 6.8 && scrollY <= windowHeight * 8.8) {
+    if (scrollY >= windowHeight * 4.5 && scrollY <= windowHeight * 8) {
       setContact(true);
     } else {
       setContact(false);
